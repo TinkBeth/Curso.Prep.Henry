@@ -181,7 +181,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var Math,ceil =((num),0001); {
+  var Math,ceil =(num); {
     return redondeado
   }
   
@@ -283,7 +283,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if 
+  if (letra.length>1); {
+    return 'Dato incorrecto'
+  }
+  if (letra==='a'|| letra==='e'|| letra==='i'|| letra==='0'|| letra==='u'); {
+    return 'Es vocal'
+  } {
+    return 'Dato incorrecto'
+  }
 }
 
 
